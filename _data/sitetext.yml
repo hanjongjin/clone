@@ -11,127 +11,44 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: 전주기업반 프론트엔드 직무 향상 과정입니다.
+    text: 수강생 여러분 환영합니다!
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "직무향상과정"
+    text: "직무 능력 향상을 위하여 우리 모두 열심히~"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "프론트엔드 과정"
+        desc: "프론트엔드개발 직무는 백엔드 API(Application Programming Interface)에서 가져온 데이터의 출력, 입력을 통한 비즈니스 로직 구성과 사용자 인터페이스에 대한 작업을 수행합니다. 간단히 말하자면, 유저가 눈으로 보는 모든 것을 개발하는 직무입니다."
+        icon: fas fa-fire #find more at https://fontawesome.com/icons        
+      - title: "백엔드 과정"
+        desc: "도메인, 클라우드, 하이웍스, 호스팅 등 모든 서비스의 전반적인 비즈니스 로직을 구현하고, 기존 시스템을 분석/개선하는 업무와 함께 사업 확장을 위해 필요한 새로운 시스템에 대한 연구와 학습을 지속합니다."
+        icon: fas fa-folder-open        
+      - title: "시스템 엔지니어링 과정"
+        desc: "운영체제(OS, Operation System)의 구조와 이론을 학습하여, 응용 프로그램 개발자와 협업할 수 있는 환경을 구축하고 운용합니다. 로그 분석, 서버/클라이언트 관리, 파싱, 스케줄러, 네트워크, 클라우드 환경, 웹서버, 메일서버 등 Windows 및 Linux 서버를 체계적으로 학습합니다."
+        icon: far fa-heart
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "교육내용"
+    text: "전주기업반 직무향상 교육내용입니다."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "닫기"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
+  
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "전주시 기업반에 대하여"
+    text: "졸업생들이 전주시에 위치하는 회사에 취업하여 정주하는 경우 일정 금액을 지원~~"
+    body: "전주시에 위치하는 10여개의 협약 회사에 인턴 과정을 거쳐 취업을 하면 **전주시에 정주하는 조건으로 5년간 4200만원**을
+           지원."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "call 컴퓨터정보과 063-220-3860"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -151,8 +68,6 @@ en: &DEFAULT_EN
         icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
       - url: https://github.com/raviriley/agency-jekyll-theme
         icon: "fab fa-github"
       - url: https://instagram.com

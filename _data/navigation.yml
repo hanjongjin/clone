@@ -11,20 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "직무향상과정"
       section: services
-    - title: "Portfolio"
+    - title: "교육내용"
       section: portfolio
-    - title: "About"
+    - title: "전주기업반에 대하여"
       section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -38,20 +32,14 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
+    - title: "직무 향상 과정"
       section: servicios
     - title: "Portafolio"
       section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
     - title: "Contáctenos"
       section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
@@ -67,13 +55,7 @@ de: &DEFAULT_DE
       section: Portfolio
     - title: "Über uns"
       section: Ueber
-    - title: "Geschichte"
-      section: Geschichte
-    - title: "Team"
-      section: Team
     - title: "Kontakt"
       section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 de-DE:
   <<: *DEFAULT_DE
